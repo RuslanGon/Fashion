@@ -95,11 +95,19 @@ margin-left: 375px;
 margin-bottom: 10px;
  }
 
+ .data {
+    display: flex;
+    gap: 15px;
+    margin-left: 375px;
+ }
+    
+ 
+
  .main-desk {
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 375px;
+
 padding-bottom: 59px;
  }
