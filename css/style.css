@@ -62,6 +62,7 @@ display: block;
  }
 
  .header-item :hover{
+   
     background: #171717;
     color: #FFF;
  }
@@ -69,6 +70,7 @@ display: block;
  .header-item {
     position: relative;
     float: left;
+   
    
 
  }
