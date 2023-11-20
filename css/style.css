@@ -49,7 +49,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 display: block;
+transition: .5s;
+ }
 
+ .heager-link :hover {
+   transform: scale(1.2);
  }
 
  .header-nav {
