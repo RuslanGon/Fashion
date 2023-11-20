@@ -37,6 +37,9 @@ ul {
 
 .header-title:hover {
     transform: scale(1.2);
+    background: #171717;
+    color: #FFF;
+
 }
 
 .heager-link {
