@@ -46,6 +46,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 display: block;
+
  }
 
  .header-nav {
@@ -65,6 +66,7 @@ display: block;
  .header-item {
     position: relative;
     float: left;
+   
 
  }
 
@@ -73,18 +75,22 @@ display: block;
     left: 0;
     width: 100px;
     margin-left: -40px;
-   /* display: none; */
+    background: #171717;
+   display: none;
  }
 q
  .contact-item {
     width: 100%;
-   
+ }
+
+ .header-item:hover .contact-list {
+   display: block;
  }
 
 
- .header-item :hover > .contact-list {
+ /* .header-item :hover > .contact-list {
   display: initial;
- }
+ } */
 
  
     
