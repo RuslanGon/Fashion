@@ -39,6 +39,15 @@ ul {
     transform: scale(1.2);
 }
 
+.heager-link {
+    color: #171717;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+ }
+
  .header-nav {
     margin-right: 81px;
  }
@@ -53,14 +62,38 @@ ul {
     color: #FFF;
  }
 
- .heager-link {
-    color: #171717;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: block;
+ .header-item {
+    position: relative;
+    float: left;
+
  }
+
+ .contact-list {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    margin-left: -40px;
+   /* display: none; */
+ }
+
+ .contact-item {
+    width: 100%;
+   
+ }
+
+
+ .header-item :hover > .contact-list {
+  display: initial;
+ }
+
+ 
+    
+ 
+ .contact-desk {
+   
+ }
+
+
  
 
  /* main-section */
