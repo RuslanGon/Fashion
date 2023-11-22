@@ -386,6 +386,10 @@ q .contact-item {
    background-color: #F8F9FA;
 }
 
+.cize-item :hover {
+   color: #C9A96E;
+}
+
 .cize-svg {
    padding-top: 17px;
    padding-left: 39px;
@@ -406,6 +410,11 @@ q .contact-item {
    text-align: center;
 
 }
+
+.tags-item :hover {
+   color: #C9A96E;
+}
+
 
 .tags-dexk {
    color: #666;
