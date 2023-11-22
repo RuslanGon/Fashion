@@ -228,23 +228,18 @@ height: 394.589px;
    color: #C9A96E;
 }
 
+/* hard */
 
-
-
-
-
-
-
-
-
-
-
-/* ========================== */
 .hard {
    width: 1920px;
    margin: 0 auto;
    display: flex;
-   justify-content: space-between;
+  gap: 130px;
+  
+}
+
+.card {
+   margin-left: 375px;
 }
 
 .box-list {
@@ -343,7 +338,7 @@ height: 394.589px;
 }
 
 .btn {
-   margin-top: 70px;
+   margin-top: 45px;
    color: #171717;
    text-align: center;
    font-size: 16px;
@@ -422,7 +417,6 @@ height: 394.589px;
    display: flex;
    margin-left: -43px;
    gap: 10px 10px;
-
 }
 
 .tags-item {
@@ -430,7 +424,6 @@ height: 394.589px;
    width: 84px;
    height: 30px;
    text-align: center;
-
 }
 
 .tags-item :hover {
@@ -446,20 +439,12 @@ height: 394.589px;
    transform: scale(1.2);
 }
 
-/*  */
-
 .card-list {
    width: 770px;
    flex-wrap: wrap;
    display: flex;
    gap: 30px 30px;
 }
-
-
-.card-item {
- 
-}
-
 
 .card-titlt {
    color: #C9A96E;
