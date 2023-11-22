@@ -237,11 +237,8 @@ margin-left: 851px;
 
 
 
-==========================
+/* ========================== */
 
-.box {
-  
-}
 .box-list {
 width: 270px;
 }
@@ -334,4 +331,54 @@ margin-top: 12px;
 .span-data-desk {
 color: #B1B1B1;
 font-size: 12px;
+}
+
+.btn {
+   margin-top: 70px;
+   color: #171717;
+text-align: center;
+font-size: 16px;
+width: 270px;
+height: 50px;
+background: transparent;
+border: 1px solid #E5E5E5;
+cursor: pointer;
+margin-bottom: 34px;
+}
+
+.btn:hover{
+   color: #C9A96E;
+}
+
+.cize {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cize-dexk {
+   color: #666;
+   margin-bottom: 15px;
+}
+
+.cize-line {
+   color: #E5E5E5;
+   margin-bottom: 15px;
+}
+
+.xxx {
+   color: #999;
+font-size: 12px;
+text-align: center;
+margin-top: 5px;
+}
+
+.cize-item {
+width: 88px;
+height: 88px;
+background-color: #F8F9FA;
+}
+
+.cize-svg {
+   padding-top: 17px;
+   padding-left: 39px;
 }
