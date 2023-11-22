@@ -238,6 +238,12 @@ q .contact-item {
 
 
 /* ========================== */
+.hard {
+   width: 1920px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
 
 .box-list {
    width: 270px;
