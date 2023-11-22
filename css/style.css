@@ -348,13 +348,17 @@ q .contact-item {
    width: 270px;
    height: 50px;
    background: transparent;
-   border: 1px solid #E5E5E5;
+   /* border: 1px solid #E5E5E5; */
    cursor: pointer;
    margin-bottom: 34px;
+   box-shadow: 0 4px 15px #171717;
+   transition: .5s;
 }
 
 .btn:hover {
-   color: #C9A96E;
+   color: #171717;
+   transform: scale(1.2);
+   background-color: #C9A96E;;
 }
 
 .cize {
@@ -377,6 +381,11 @@ q .contact-item {
    font-size: 12px;
    text-align: center;
    margin-top: 5px;
+   transition: .5s;
+}
+
+.xxx:hover {
+   transform: scale(1.2);
 }
 
 .cize-list {
@@ -399,6 +408,11 @@ q .contact-item {
 .cize-svg {
    padding-top: 17px;
    padding-left: 39px;
+   transition: .5s;
+}
+
+.cize-svg:hover {
+   transform: scale(1.2);
 }
 
 .tags-list {
@@ -421,9 +435,11 @@ q .contact-item {
    color: #C9A96E;
 }
 
-
 .tags-dexk {
    color: #666;
    margin-top: 6px;
-
+   transition: .5s;
+}
+.tags-dexk:hover {
+   transform: scale(1.2);
 }
